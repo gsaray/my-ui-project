@@ -553,3 +553,8 @@ p {
     border-radius: 50%;
     margin-bottom: 2px;
 }
+
+.delivery-note {
+    color: #1A1A1A;
+    font-size: 13px;
+}
