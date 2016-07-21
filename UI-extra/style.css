@@ -538,3 +538,13 @@ p {
     color: #1A1A1A;
     font-size: 13px;
 }
+
+.bottom-footer a + a::before {
+    content: ' ';
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #737373;
+    margin: 2px 5px;
+};
