@@ -108,7 +108,7 @@ p {
     border:none;
 }
 
-.logo {
+.center-link {
     text-align: center;
 }
 
@@ -227,10 +227,6 @@ p {
     display: inline;
 }
 
-.bottom-footer {
-    text-align: center;
-}
-
 .footer-link-size a + a::before {
     content: '';
     display: inline-block;
@@ -309,10 +305,6 @@ p {
     height: 8px;
     border-radius: 8px;
     background-color: #404040;
-}
-
-.pip-links {
-    text-align: center;
 }
 
 .prev:before {
