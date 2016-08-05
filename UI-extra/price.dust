@@ -1,13 +1,9 @@
-<div class="price">
-    {?oldPrice}
-        <s class="grey-color">{oldprice}</s>
-        <span>{currentprice}</span>
-        {?savePrice}
-            <s class="grey-color">{oldprice}</s>
-            <span class="green-color">{saveprice}</span>
-            <span class="red-color">{saleprice}</span>
-        {/savePrice}
-        {:else}
-            <span>{price}</span>
-    {/oldPrice}
-</div>
+{?oldPrice}
+    <s class="grey-color">{oldPrice}</s>
+
+    {?saveprice}<span class="green-color">{saveprice}</span>{/saveprice}
+
+    <span {?saveprice}class="red-color"{/saveprice}>{currentPrice}</span>
+{:else}
+    <span>{currentPrice}</span>
+{/oldPrice}
