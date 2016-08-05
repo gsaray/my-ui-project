@@ -7,35 +7,35 @@
     <body>
         <header>
             <div class="site-header global-background flex-box">
-                <div class="flex-static">
+                <div class="flex-static padding-sides-s">
                     <button type="button" class="site-header-icons">
                         <div>
                             <img class="header-icons" src="./icons/social-fb.png">
                         </div>
                     </button>
                 </div>
-                <div  class="flex-static padding-sides-m">
+                <div  class="flex-static padding-sides-s">
                     <button type="button" class="site-header-icons">
                         <div>
                             <img class="header-icons" src="./icons/social-fb.png">
                         </div>
                     </button>
                 </div>
-                <div class="flex-item">
-                    <a class="site-header-icons">
-                        <div class="logo">
+                <div class="flex-item padding-sides-s">
+                    <a class="site-header-anchor site-header-icons" href="www.logo.com" >
+                        <div class="center-link">
                             <img class="header-icons" src="./icons/social-fb.png">
                         </div>
                     </a>
                 </div>
-                <div  class="flex-static padding-sides-m">
-                    <a class="site-header-icons">
-                        <div>
+                <div  class="flex-static padding-sides-s">
+                    <a href="www.account.com" class="site-header-anchor site-header-icons">
+                        <div class="center-link">
                             <img class="header-icons" src="./icons/social-fb.png">
                         </div>
                     </a>
                 </div>
-                <div class="flex-static">
+                <div class="flex-static padding-sides-s">
                     <button type="button" class="site-header-icons">
                         <div >
                             <img class="header-icons" src="./icons/social-fb.png">
@@ -65,7 +65,7 @@
                 <img src="http://cdn.extrastores.com/ImagesSections/product/292/9977369_L_1.jpg">
                 <div class="carousel-nav flex-box">
                     <button type="button" href="www.next.com" class="prev padding-all-m flex-static"></button>
-                    <ul class="pip-links flex-item">
+                    <ul class="center-link flex-item">
                         <li class="pips active"><a href="www.next.com" ></a></li>
                         <li class="pips"><a href="www.next.com"></a></li>
                         <li class="pips"><a href="www.next.com"></a></li>
@@ -74,7 +74,7 @@
                     <button type="button" href="www.next.com" class="next padding-all-m flex-static"></button>
                 </div>
             </div>
-            <div class="reviews flex-box flex-box—start">
+            <div class="reviews flex-box flex-box__start">
                 <div class="flex-static relative-item">
                     <div>
                         <div class="stars empty-star"></div>
@@ -87,13 +87,13 @@
                 </div>
             </div>
             <div class="relative-item add-on padding-left-m">
-                    <div class="specials">
-                        <div class="specials-line"></div>
-                        <span class="special-text">FREE GIFTS</span>
+                    <div class="specials flex-box">
+                        <div class="special-text flex-static">FREE GIFTS</div>
+                        <div class="specials-line flex-item"></div>
                     </div>
                     <ul class="free-gift-content">
-                        <li class="pdp-gift free-gift">
-                            <div class="gift">
+                        <li class="bullet-item free-gift flex-box flex-box__baseline">
+                            <div class="gift flex-item">
                                 <div class="site-links">Tamron AF 18-200 mm f-3.5-5.6 G lens for Nikon</div>
                                 <div>
                                     <s class="old-price">1499 SR</s>
@@ -101,8 +101,8 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="pdp-gift free-gift">
-                            <div class="gift">
+                        <li class="bullet-item free-gift flex-box flex-box__baseline">
+                            <div class="gift flex-item">
                                 <div class="site-links">Microsoft Keyboard</div>
                                 <div>
                                     <s class="old-price">199 SR</s>
@@ -113,9 +113,9 @@
                     </ul>
             </div>
             <div class="relative-item add-on padding-left-m">
-                <div class="specials">
-                    <div class="specials-line"></div>
-                    <span class="special-text">CASHBACK</span>
+                <div class="specials flex-box">
+                    <div class="special-text flex-static">CASHBACK</div>
+                    <div class="specials-line flex-item"></div>
                 </div>
                 <ul class="cash-back">
                     <li class="free-text free-gift-content">CashBack 550 SR</li>
@@ -125,25 +125,36 @@
             <hr></hr>
             <div class="padding-all-m">
                 <div class="flex-box">
-                    <div class="status flex-item">In Stock</div>
-                    <div class="stepper flex-item">
-                        <div class="flex-box" >
+                    <div class="flex-item">
+                        <div class="flex-box">
+                            <img class="footer-icons flex-static" src="./icons/social-fb.png">
+                            <div class="status flex-item">In Stock</div>
+                        </div>
+                    </div>
+                    <div class="flex-item">
+                        <div class="flex-box stepper" >
                             <input  type="tel" class="flex-item" placeholder="1"></input>
-                            <button  type="button" class="quantity plus flex-item">+</button>
-                            <button  type="button" class="quantity flex-item">-</button>
+                            <button  type="button" class="quantity plus flex-static">+</button>
+                            <button  type="button" class="quantity flex-static">-</button>
                         </div>
                     </div>
                 </div>
                 <button type="button" class="global-button primary-button"> ADD TO CART</button>
-                <div>Free home delivery</div>
-                <div>Collect from <a class="site-links" href="store">store</a></div>
+                <div class="delivery-note padding-bottom-m flex-box">
+                    <img class="footer-icons flex-static" src="./icons/social-fb.png">
+                    <div class="flex-item">Free home delivery</div>
+                </div>
+                <div class="delivery-note flex-box">
+                    <img class="footer-icons flex-static" src="./icons/social-fb.png">
+                    <div class="flex-item">Collect from <a class="site-links" href="store">store</a></div>
+                </div>
             </div>
             <div class="padding-all-m">
                 <div class="bundle padding-all-m">
                     <div>
                         <div class="bundle-header inline-display">Special Offer</div>
-                        <div class="bundle-badge inline-display">BUNDLE</div>
-                        <div class="bundle-item flex-box flex-box—start padding-top-m">
+                        <div class="special-text special-text__bundle inline-display">BUNDLE</div>
+                        <div class="bundle-item flex-box flex-box__start padding-top-m">
                             <img class="flex-item" src="http://cdn.extrastores.com/ImagesSections/product/292/9977369_L_1.jpg">
                             <div class="flex-item">LENOVO FLEX2, Intel Core i3 14" FHD Multi Point Touch...
                                 <div class="flex-box">
@@ -153,23 +164,25 @@
                             </div>
                         </div>
                         <hr></hr>
-                        <div class="bundle-item flex-box flex-box—start padding-top-s">
+                        <div class="bundle-item flex-box flex-box__start">
                             <img class="flex-item" src="http://cdn.extrastores.com/ImagesSections/product/292/9977369_L_1.jpg">
                             <div class="flex-item">
                                 <span class="site-links">Logitech Wireless Mouse</span>
-                                <div class="flex-box">
-                                    <span class="old-price">Reg. </span>
-                                    <s class="old-price flex-item">199 SR</s>
+                                <div>
+                                    <span class="old-price">Reg.
+                                        <s>199 SR</s>
+                                    </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="bundle-item flex-box flex-box—start padding-top-s">
+                        <div class="bundle-item flex-box flex-box__start">
                             <img class="flex-item" src="http://cdn.extrastores.com/ImagesSections/product/292/9977369_L_1.jpg">
                             <div class="flex-item">
                                 <span class="site-links">Logitech Wireless Mouse</span>
-                                <div class="flex-box">
-                                    <span class="old-price">Reg. </span>
-                                    <s class="old-price flex-item">99 SR</s>
+                                <div>
+                                    <span class="old-price">Reg.
+                                        <s>99 SR</s>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -178,19 +191,19 @@
                             <div class="bundle-save bundle-color flex-item">Save 20%</div>
                             <div class="sale-price flex-static">4999 SR</div>
                         </div>
-                        <button type="button" class="bundle-button primary-button"> ADD BUNDLE TO CART</button>
+                        <button type="button" class="bundle-button global-button"> ADD BUNDLE TO CART</button>
                     </div>
                 </div>
             </div>
             <div class="accordion">
-                <button class="accordion-item relative-item">
-                    <span>Also available with...</span>
+                <button class="accordion-item flex-box">
+                    <span class="flex-item">Also available with...</span>
                 </button>
-                <button class="accordion-item relative-item">
-                    <span>Highlights</span>
+                <button class="accordion-item flex-box">
+                    <span class="flex-item">Highlights</span>
                 </button>
-                <button class="accordion-item relative-item">
-                    <span>Specifications</span>
+                <button class="accordion-item flex-box">
+                    <span class="flex-item">Specifications</span>
                 </button>
             </div>
         <footer>
@@ -200,29 +213,29 @@
                         <div class="padding-top-m padding-bottom-m">
                             <div class="flex-box padding-all-m">
                                 <div class="flex-item benefit-links">
-                                    <a href="www.extrastores.com">
-                                        <img class="footer-icons" src="./icons/social-fb.png">
-                                        <span class="icon-center-align">Pay safe with SADAD</span>
+                                    <a class="flex-box flex-box__start" href="www.extrastores.com">
+                                        <img class="footer-icons flex-static" src="./icons/social-fb.png">
+                                        <span class="flex-item">Pay safe with SADAD</span>
                                     </a>
                                 </div>
                                 <div class="flex-item benefit-links">
-                                    <a href="www.extrastores.com">
-                                        <img class="footer-icons" src="./icons/social-fb.png">
-                                        <span class="icon-center-align">FREE devilery on all orders</span>
+                                    <a class="flex-box flex-box__start" href="www.extrastores.com">
+                                        <img class="footer-icons flex-static" src="./icons/social-fb.png">
+                                        <span class="flex-item">FREE devilery on all orders</span>
                                     </a>
                                 </div>
                             </div>
                             <div class="flex-box padding-all-m">
                                 <div class="flex-item benefit-links">
-                                    <a href="www.extrastores.com">
-                                        <img class="footer-icons" src="./icons/social-fb.png">
-                                        <span class="icon-center-align">7 days return policy</span>
+                                    <a class="flex-box flex-box__start" href="www.extrastores.com">
+                                        <img class="footer-icons flex-static" src="./icons/social-fb.png">
+                                        <span class="flex-item">7 days return policy</span>
                                     </a>
                                 </div>
                                 <div class="flex-item benefit-links">
-                                    <a href="www.extrastores.com">
-                                        <img class="footer-icons" src="./icons/social-fb.png">
-                                        <span class="icon-center-align">Order online collect in store</span>
+                                    <a class="flex-box flex-box__start" href="www.extrastores.com">
+                                        <img class="footer-icons flex-static" src="./icons/social-fb.png">
+                                        <span class="flex-item">Order online collect in store</span>
                                     </a>
                                 </div>
                             </div>
@@ -242,7 +255,7 @@
                                         <input>
                                     </div>
                                     <div class="flex-static">
-                                        <button type="submit" class="global-button small-button">SUBSCRIBE</button>
+                                        <button type="submit" class="global-button primary-button small-button">SUBSCRIBE</button>
                                     </div>
                                 </div>
                                 </div>
@@ -254,45 +267,51 @@
                     <div>Contact Us</div>
                     <div class="contact-us flex-box padding-top-m">
                         <div class="flex-item">
-                            <img class="footer-icons" src="./icons/social-fb.png">
-                            <span class="icon-center-align secondary-footer-links">Email</span>
+                            <div class="flex-box">
+                                <img class="flex-static footer-icons" src="./icons/social-fb.png">
+                                <span class="flex-item secondary-footer-links">Email</span>
+                            </div>
                         </div>
                         <div class="flex-item">
-                            <img class="footer-icons" src="./icons/social-fb.png">
-                            <span class="icon-center-align secondary-footer-links">Phone</span>
+                            <div class="flex-box">
+                                <img class="flex-static footer-icons" src="./icons/social-fb.png">
+                                <span class="flex-item secondary-footer-links">Phone</span>
+                            </div>
                         </div>
                         <div class="flex-static">
-                            <img class="footer-icons" src="./icons/social-fb.png">
-                            <span class="icon-center-align secondary-footer-links">Location</span>
+                            <div class="flex-box">
+                                <img class="flex-static footer-icons" src="./icons/social-fb.png">
+                                <span class="flex-item secondary-footer-links">Location</span>
+                            </div>
                         </div>
                     </div>
                     <div class="flex-box padding-top-l">
                         <div class="flex-item">Follow Us
-                            <div class="relative-item padding-top-s">
+                            <div class="flex-box padding-top-s">
                                 <img class="footer-icons" src="./icons/social-fb.png">
-                                <span class="icon-center-align secondary-footer-links">twitter</span>
+                                <span class="flex-item secondary-footer-links">twitter</span>
                             </div>
-                            <div class="relative-item padding-top-s">
-                                <img class="footer-icons" src="./icons/social-fb.png">
-                                <span class="icon-center-align secondary-footer-links">facebook</span>
+                            <div class="flex-box padding-top-s">
+                                <img class="flex-static footer-icons" src="./icons/social-fb.png">
+                                <span class="flex-item secondary-footer-links">facebook</span>
                             </div>
-                            <div class="relative-item padding-top-s">
-                                <img class="footer-icons" src="./icons/social-fb.png">
-                                <span class="icon-center-align secondary-footer-links">youtube</span>
+                            <div class="flex-box padding-top-s">
+                                <img class="flex-static footer-icons" src="./icons/social-fb.png">
+                                <span class="flex-item secondary-footer-links">youtube</span>
                             </div>
                         </div>
                         <div class="flex-item">Download the App
-                            <div class="relative-item padding-top-s">
-                                <img class="footer-icons" src="./icons/social-fb.png">
-                                <span class="icon-center-align secondary-footer-links">Android</span>
+                            <div class=" flex-box padding-top-s">
+                                <img class="flex-static footer-icons" src="./icons/social-fb.png">
+                                <span class="flex-item secondary-footer-links">Android</span>
                             </div>
-                            <div class="relative-item padding-top-s">
-                                <img class="footer-icons" src="./icons/social-fb.png">
-                                <span class="icon-center-align secondary-footer-links">Windows</span>
+                            <div class="flex-box padding-top-s">
+                                <img class="flex-static footer-icons" src="./icons/social-fb.png">
+                                <span class="flex-item secondary-footer-links">Windows</span>
                             </div>
-                            <div class="relative-item padding-top-s">
-                                <img class="footer-icons" src="./icons/social-fb.png">
-                                <span class="icon-center-align secondary-footer-links">iOS</span>
+                            <div class="flex-box padding-top-s">
+                                <img class="footer-icons flex-static" src="./icons/social-fb.png">
+                                <span class="flex-item secondary-footer-links">iOS</span>
                             </div>
                         </div>
                     </div>
@@ -329,8 +348,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="general-color bottom-footer general-link-size padding-bottom-m">Copyright © 2014 extra.com. All Rights Reserved.</div>
-                <div class="bottom-footer  general-link-size padding-bottom-m">
+                <div class="general-color center-link general-link-size padding-bottom-m">Copyright © 2014 extra.com. All Rights Reserved.</div>
+                <div class="center-link  general-link-size padding-bottom-m">
                     <a class="site-links" href="www.extra.com">Sitemap</a>
                     <a class="site-links" href="www.extra.com">Terms and Conditions</a>
                     <a class="site-links" href="www.extra.com">Privacy Policy</a>

@@ -1,0 +1,9 @@
+{?oldPrice}
+    <s class="grey-color">{oldPrice}</s>
+
+    {?saveprice}<span class="green-color">{saveprice}</span>{/saveprice}
+
+    <span {?saveprice}class="red-color"{/saveprice}>{currentPrice}</span>
+{:else}
+    <span>{currentPrice}</span>
+{/oldPrice}
